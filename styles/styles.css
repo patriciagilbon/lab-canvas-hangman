@@ -1,17 +1,30 @@
-.game-logo {
-
+.container {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+  height:90vh;
 }
-
+.button{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
 #start-game-button {
   border: 0;
   box-shadow: 0;
-  background: linear-gradient(to bottom, #9DA400, #BAC600);
+  background: rgba(0,0,0,0.92);
   color: #fff;
   padding: 20px 40px;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 5px;
+  float: left;
+  -webkit-border-radius: 4px;
 }
 
 #hangman {
   text-align: center;
 }
+.play{
+  background: linear-gradient(to bottom, #89CFF0, #6495ED);
+}
+/* styles/style.css */
